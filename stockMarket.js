@@ -7,9 +7,9 @@ function maxProfit(arr){
   profitList = [];
   maxProfit = 0;
   for (money in stocks){
-    for (i = 0; i < money; i++){
-      if (arr[money] > arr[i]){
-        profitList.push(arr[money] - arr[i]);
+    for (day = 0; day < money; day++){
+      if (arr[money] > arr[day]){
+        profitList.push(arr[money] - arr[day]);
       }
     }
   }
