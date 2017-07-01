@@ -3,8 +3,9 @@ function test(){
 }
 module.exports = {
   asd: "123",
+  pi: 3.14159,
   print: function(){
     console.log('hello from module');
   },
-  test: test() // invoke self
+  testasd: test() // invoke self
 };
